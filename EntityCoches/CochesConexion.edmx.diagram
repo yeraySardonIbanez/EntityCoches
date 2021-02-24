@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a7b80d9d25fe4e8c8e0dcb32020aab50" Name="Diagram1">
+        <EntityTypeShape EntityType="cochescutresModel.Cliente" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="cochescutresModel.Empleado" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="cochescutresModel.CompraVenta" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="cochescutresModel.FK__CompraVen__ID_CL__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="cochescutresModel.FK__CompraVen__ID_EM__5441852A" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="cochescutresModel.Vehiculo" Width="1.5" PointX="3.375" PointY="5" />
+        <AssociationConnector Association="cochescutresModel.FK__CompraVen__ID_VE__73BA3083" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
